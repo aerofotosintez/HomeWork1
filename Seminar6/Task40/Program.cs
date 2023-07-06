@@ -4,8 +4,13 @@
 
 // Теорема о неравенстве треугольника: каждая сторона 
 // треугольника меньше суммы двух других сторон.
-
-bool CheckIfTrangleExists(uint a, uint b, uint c)
+Console.WriteLine("введите значение стороны треугольника а");
+int a = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("введите значение стороны треугольника b");
+int b = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("введите значение стороны треугольника c");
+int c= Convert.ToInt32(Console.ReadLine());
+int TrangleExists(a, b, c)
 {
 if(a < 0 || b < 0 || c < 0)
 {
@@ -14,11 +19,14 @@ if(a < 0 || b < 0 || c < 0)
 else if(a + b > c && a + c > b && b + c > a)
 {
     Console.WriteLine("Треугольник существует");
-    return true;
+    
 }
 else 
 {
     Console.WriteLine("Треугольник не может существовать");
-    return false;
+
 }
 }
+
+bool result = TrangleExists();
+Console.WriteLine();
