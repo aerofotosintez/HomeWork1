@@ -39,15 +39,19 @@ return matrix;
 //     }
 //     return summa;    
 // }
+
+
 int MainDiagonal(int[,] matrix)
 {
     int min = matrix.GetLength(0);
     int summa = 0;
+    
     if(min > matrix.GetLength(1))
     {
         min = matrix.GetLength(1);
         
     }
+    // for (int i = 0; i < matrix.GetLength(0) && matrix.GetLength(1); i++)
     for (int i = 0; i<min; i++)
         summa = summa + matrix[i, i];
         return summa;
