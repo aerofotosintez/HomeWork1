@@ -10,7 +10,7 @@ Console.WriteLine("введите значение стороны треугол
 int b = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("введите значение стороны треугольника c");
 int c= Convert.ToInt32(Console.ReadLine());
-int TrangleExists(a, b, c)
+int TrangleExists(int a, b, c)
 {
 if(a < 0 || b < 0 || c < 0)
 {
