@@ -6,7 +6,7 @@
 
 Console.WriteLine("введите число M");
 int m = Convert.ToInt32(Console.ReadLine());
-Console.WriteLine("введите число ");
+Console.WriteLine("введите число N");
 int n = Convert.ToInt32(Console.ReadLine());
 
 int SummaRec(int x, int y)
